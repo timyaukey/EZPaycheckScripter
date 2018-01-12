@@ -102,7 +102,7 @@ namespace EZPaycheckScripter
                     return;
                 }
                 paycheckCount++;
-                script.AppendLine("Local $window = WinWaitActive(\"ezPayCheck 2017\", \"List Checks After\")");
+                script.AppendLine("Local $window = WinWaitActive(\"ezPayCheck 2018\", \"List Checks After\")");
                 CreatePaycheck(script, check);
             }
 
