@@ -14,7 +14,7 @@ namespace EZPaycheckScripter
         public AutoItScript()
         {
             scriptBuilder = new StringBuilder();
-            windowVarName = "$window";
+            windowVarName = "$window"; 
         }
 
         public void AppendLine(string line)
